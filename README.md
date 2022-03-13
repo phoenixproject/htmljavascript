@@ -114,4 +114,31 @@ Definições de bloco:
 	console.log(valor3l); // Erro! Porque let respeita o escopo em Bloco!	
 ```
 
+02 - Exemplo de Java script utilizando parâmetros opcionais
 
+- O parâmetro opcional já recebe atribuição de valor na assinatura do método e caso seja omitido na chamada da função assume seu valor.
+```javascript
+
+	function soma(a,b = 50)
+	{        
+		console.log(a + b);
+	}
+
+	function sub(a,b,inverter = false)
+	{
+		if(inverter)
+		{
+			console.log(a-b);
+		}
+		else{
+			console.log(b-a);
+		}
+	}
+
+	// Como podem ser chamadas as funções 
+	console.log(soma(4,2));
+	console.log(soma(10));
+
+	console.log(sub(5,3,true));
+	console.log(sub(20,80));
+```
