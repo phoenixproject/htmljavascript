@@ -73,29 +73,29 @@ Definições de bloco:
 	// Escopo em Bloco
 	// Bloco 1
 	{
-			var valor1v = 1;
-			let valor1l = 3;
+		var valor1v = 1;
+		let valor1l = 3;
 	}
 
 	// Bloco 2	
 	while(valorreferencia > 8)
 	{
-			var valor1v = 1;
-			let valor1l = 4;
+		var valor1v = 1;
+		let valor1l = 4;
 	}
 
 	// Bloco 3	
 	for(var indice = 0; indice < valorreferencia; indice++)
 	{
-			var valor3v = 78;
-			let valor3l = 99;
+		var valor3v = 78;
+		let valor3l = 99;
 	}
 
 	// Bloco 4
 	if(valorreferencia == 5)
 	{
-			var valor4v = 1;
-			let valor4l = 1;
+		var valor4v = 1;
+		let valor4l = 1;
 	}
 
 	// Exibindo valor de escopo Global
