@@ -9,7 +9,8 @@ Aplicação simulação paginação com HTML e Java Script sob demanda utilizand
 
 - (const) Declaração **constante** em Java Script (constantes devem obrigatoriamente serem declaradas já recebendo um valor)
 ```javascript
-	const minha_constante = "Esse valor não poderá ser alterado e novas atribuições não serão aceitas.";
+	const minha_constante = "Esse valor não poderá ser alterado 
+	e novas atribuições não serão aceitas.";
 ```
 
 - (var) Declaração de variáveis em Java Script (funciona no escopo Global e Local)
@@ -19,7 +20,8 @@ Aplicação simulação paginação com HTML e Java Script sob demanda utilizand
 
 - (let) Declaração de variável let (tem escopo Global, Local e em Bloco)
 ```javascript
-	const minha_constante = "Esse valor não poderá ser alterado e novas atribuições não serão aceitas.";
+	const minha_constante = "Esse valor não poderá ser alterado 
+	e novas atribuições não serão aceitas.";
 ```
 
 **Características de variáveis do tipo **let** e **var** que tem diferença em escopo que possuem:**
@@ -65,9 +67,9 @@ Definições de bloco:
 	// Escopo Local
 	function funcaoTestar()
 	{
-			var nome = "João";
-			let sobrenome = "Pena";
-			console.log("Testando aqui o valor de " + nome + " " + sobrenome + ": " +  valorreferencia);
+		var nome = "João";
+		let sobrenome = "Pena";
+		console.log("Testando aqui o valor de " + nome + " " + sobrenome + ": " +  valorreferencia);
 	}
 
 	// Escopo em Bloco
