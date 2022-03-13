@@ -69,7 +69,8 @@ Definições de bloco:
 	{
 		var nome = "João";
 		let sobrenome = "Pena";
-		console.log("Testando aqui o valor de " + nome + " " + sobrenome + ": " +  valorreferencia);
+		console.log("Testando aqui o valor de " + nome + " " + sobrenome + "
+		: " +  valorreferencia);
 	}
 
 	// Escopo em Bloco
