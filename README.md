@@ -5,7 +5,7 @@
 #### HTML Storage
 Aplicação simulação paginação com HTML e Java Script sob demanda utilizando local store
 
-01 - Exemplo Java script (EMAC Script 6)
+01 - Exemplo Java script trabalhando uso de atribuições em escopos distintos
 
 - (const) Declaração **constante** em Java Script (constantes devem obrigatoriamente serem declaradas já recebendo um valor)
 ```javascript
