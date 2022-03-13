@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/06/2019, 21:38:36
+    Author     : pchan
+*/
+
+/* Loading */
+.loading-spinner {
+  background: #333;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+}
+
+.loading-spinner.active {
+  display: block;
+}
+
+#hourglass { /* centraliza no meio da tela */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -32px 0 0 -32px;
+}
