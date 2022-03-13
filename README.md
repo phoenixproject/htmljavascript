@@ -7,7 +7,7 @@ Aplicação simulação paginação com HTML e Java Script sob demanda utilizand
 
 01 - Exemplo Java script trabalhando uso de atribuições em escopos distintos
 
-- (const) Declaração **constante** em Java Script (constantes devem obrigatoriamente serem declaradas já recebendo um valor)
+- (const) Declaração de **constante** em Java Script (constantes devem obrigatoriamente serem declaradas já recebendo um valor)
 ```javascript
 	const minha_constante = "Esse valor não poderá ser alterado 
 	e novas atribuições não serão aceitas.";
