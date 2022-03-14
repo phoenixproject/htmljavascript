@@ -3,7 +3,7 @@
 ##### [ECMAScript language specification](https://www.ecma-international.org)<br/>
 
 #### HTML Storage
-Aplicação simulação paginação com HTML e Java Script sob demanda utilizando local store
+Aplicação simulando **paginação** com HTML e Java Script sob demanda utilizando **local storage**.
 
 01 - Exemplo Java script trabalhando uso de atribuições em escopos distintos
 
