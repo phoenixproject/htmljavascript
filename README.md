@@ -145,7 +145,7 @@ Definições de bloco:
 
 03 - Exemplo de novo recurso de montagem de JSON em Java Script
 
-- O JSON que comumente era montado abaixo:
+- O JSON comumente era montado como na forma que segue.
 ```javascript
 
 	var nome = "João";
@@ -160,7 +160,7 @@ Definições de bloco:
 	
 	console.log(usuario);
 ```
-- Agora para passar o JSON de forma reduzida você somente precisa colocar o nome do campo quando você já tem uma variável, pois o Java Script lê o nome da variável (usuario) e cria o campo para você. Lembrando que este recurso só funciona com campos que contenham variáveis do tipo const, var e let.
+- Agora é possível passar o JSON para uma forma reduzida que somente é preciso colocar o nome do campo quando você já tem uma variável, pois o Java Script lê o nome dessa variável (usuario) e cria os campos dela para você. Lembrando que este recurso só funciona com campos que contenham variáveis do tipo const, var e let.
 ```javascript
 
 	var nome = "João";
