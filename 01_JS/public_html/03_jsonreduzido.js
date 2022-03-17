@@ -1,4 +1,4 @@
-function jsreduzido1()
+function jsonreduzido1()
 {        
     var nome = "João";
     var idade = 54;
@@ -13,7 +13,7 @@ function jsreduzido1()
     console.log(usuario);
 }
 
-function jsreduzido2()
+function jsonreduzido2()
 {
     var nome = "João";
     var idade = 54;
@@ -28,5 +28,5 @@ function jsreduzido2()
     console.log(usuario);
 }
 
-jsreduzido1();
-jsreduzido2();
+jsonreduzido1();
+jsonreduzido2();
