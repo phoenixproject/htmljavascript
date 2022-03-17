@@ -5,8 +5,8 @@
 #### HTML Storage
 Aplicação testando **paginação** com HTML e Java Script sob demanda utilizando **local storage**.
 
-#### Exemplos básico de Java Script de atulizações das versões ES6, ES7, ES8
-Dentro das atualizações das versões do Java Script seguem alguns exemplos práticos das mesmas.
+#### Recursos de atualizações do Java Script contidos nas versões ES6, ES7, ES8
+Seguem alguns exemplos práticos dos mesmos.
 
 01 - Exemplo Java script trabalhando uso de atribuições em escopos distintos
 
