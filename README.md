@@ -175,3 +175,52 @@ Definições de bloco:
 	
 	console.log(usuario);
 ```
+
+04 - Operador de Spread
+
+- Sem o operador Spread para exibir um JSON/array era preciso fazer da seguinte forma:
+```javascript
+
+	var nome = "João";
+	var idade = 54;
+	
+	var empresa = {
+		nome: "Empresa Y",
+		cidade: "Rio de Janeiro",
+		site: "rj.gov.br",
+		email: "cidade@rj.gov.br"
+	};
+	
+	var usuario = {
+		nome,
+		idade,
+		empresa: empresa.nome,
+		cidade: empresa.cidade,
+		site: empresa.site,
+		email: empresa.email
+	};
+	
+	console.log(usuario);
+```	
+	
+- Contudo com o operador Spread (representado por ...) é possível apenas utilizá-lo e colocar o nome do objeto que deseja exibir as informações.
+```javascript
+
+	var nome = "João";
+	var idade = 54;
+	
+	var empresa = {
+		nome: "Empresa Y",
+		cidade: "Rio de Janeiro",
+		site: "rj.gov.br",
+		email: "cidade@rj.gov.br"
+	};
+	
+	var usuario = {
+		nome,
+		idade,
+		...empresa
+	};
+	
+	console.log(usuario);
+```	
