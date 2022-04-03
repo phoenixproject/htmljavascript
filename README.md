@@ -9,7 +9,8 @@
 #### Tópicos: 
 
 #### 1º tópico - HTML Storage
-- [Aplicação testando **paginação** com HTML e Java Script sob demanda utilizando **local storage**](https://github.com/phoenixproject/htmljavascript/tree/master/_HTMLSTORAGE)
+
+###### - [Aplicação testando **paginação** com HTML e Java Script sob demanda utilizando **local storage**](https://github.com/phoenixproject/htmljavascript/tree/master/_HTMLSTORAGE)
 
 #### 2º tópico - Recursos de atualizações do Java Script contidos nas versões ES6, ES7, ES8
 
