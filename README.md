@@ -296,7 +296,7 @@ Sem que precise utilizar a forma comum e tradicional.
 
     // Forma comum de declaração de função
     function soma(a,b){
-        return a+b;
+        return a + b;
     }
 
     // Forma também convencional de declarar funções
