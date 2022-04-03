@@ -1,6 +1,10 @@
 ## Exemplos básicos de HTML e Java Script
 
-##### [ECMAScript language specification](https://www.ecma-international.org)<br/>
+#### Referências: 
+
+###### - [ECMAScript language specification](https://www.ecma-international.org)<br/>
+
+###### - [Guia do Promador - Victor Lima](https://guiadoprogramador.com)<br/>
 
 #### 1º tópico - HTML Storage
 - Aplicação testando **paginação** com HTML e Java Script sob demanda utilizando **local storage**.
