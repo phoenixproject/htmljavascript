@@ -2,10 +2,10 @@
 
 ##### [ECMAScript language specification](https://www.ecma-international.org)<br/>
 
-#### (01) HTML Storage
+#### 1º tópico - HTML Storage
 - Aplicação testando **paginação** com HTML e Java Script sob demanda utilizando **local storage**.
 
-#### (02) Recursos de atualizações do Java Script contidos nas versões ES6, ES7, ES8
+#### 2º tópico - Recursos de atualizações do Java Script contidos nas versões ES6, ES7, ES8
 - Seguem alguns exemplos práticos dos mesmos.
 
 01 - Exemplo Java script trabalhando uso de atribuições em escopos distintos
