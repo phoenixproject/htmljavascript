@@ -1,16 +1,17 @@
-## Exemplos básicos de HTML e Java Script
+## Exemplos básicos de uso de HTML e Java Script
 
 #### Referências: 
 
 ###### - [ECMAScript language specification](https://www.ecma-international.org)<br/>
 
-###### - [Guia do Promador - Victor Lima](https://guiadoprogramador.com)<br/>
+###### - [Guia do Programador - Victor Lima](https://guiadoprogramador.com)<br/>
+
+#### Tópicos: 
 
 #### 1º tópico - HTML Storage
-- Aplicação testando **paginação** com HTML e Java Script sob demanda utilizando **local storage**.
+- [Aplicação testando **paginação** com HTML e Java Script sob demanda utilizando **local storage**](https://github.com/phoenixproject/htmljavascript/tree/master/_HTMLSTORAGE)
 
 #### 2º tópico - Recursos de atualizações do Java Script contidos nas versões ES6, ES7, ES8
-- Seguem alguns exemplos práticos dos mesmos.
 
 01 - Exemplo Java script trabalhando uso de atribuições em escopos distintos
 
@@ -230,4 +231,57 @@ Definições de bloco:
 	};
 	
 	console.log(usuario);
+```	
+
+05 - Destructuring (desestruturação)
+- Permite que sejam recuperados campos dentro de um JSON e criar variáveis a partir desses campos.
+```javascript
+
+    var usuario = {
+        nome: "Lady D",
+        idade: "42",
+        empresa: "Tux Corporation",
+        endereco: "Avenida Boulevard"
+    };
+
+    // Recurso usando destructuring
+    let { nome } = usuario;
+    // Recurso sem utilizar destructuring (forma comum)
+    let nome = usuario.nome;
+
+    // Recurso usando destructuring com múltiplos campos
+    let { idade, empresa, endereco } = usuario;
+    
+    console.log(nome);
+    console.log(idade);
+    console.log(empresa);
+    console.log(endereco);    
+```	
+O recurso de desestruturação permite que um campo de um objeto torne-se uma variável ou melhor, seja extraído de lá assim:
+```javascript
+
+    var usuario = {
+        nome: "Lady D",
+        idade: "42",
+        empresa: "Tux Corporation",
+        endereco: "Avenida Boulevard"
+    };
+    
+    let { nome } = usuario;
+    
+    console.log(nome);
+```	
+Sem que precise utilizar a forma comum e tradicional.
+```javascript
+
+    var usuario = {
+        nome: "Lady D",
+        idade: "42",
+        empresa: "Tux Corporation",
+        endereco: "Avenida Boulevard"
+    };
+	
+    let nome = usuario.nome;
+
+    console.log(nome);
 ```	
