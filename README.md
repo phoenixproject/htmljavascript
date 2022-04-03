@@ -13,6 +13,8 @@
 
 #### 2º tópico - Recursos de atualizações do Java Script contidos nas versões ES6, ES7, ES8
 
+###### - [Java Script Moderno - ES6, ES7 e ES8](https://github.com/phoenixproject/htmljavascript/tree/master/01_JS)<br/>
+
 01 - Exemplo Java script trabalhando uso de atribuições em escopos distintos
 
 - (const) Declaração de **constante** em Java Script (constantes devem obrigatoriamente serem declaradas já recebendo um valor)
@@ -287,7 +289,7 @@ Sem que precise utilizar a forma comum e tradicional.
 
     console.log(nome);
 ```	
-06 - Arrow Function
+06 - Arrow Functions
 - Permite redução na nomenclatura de funções.
 ```javascript
 
