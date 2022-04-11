@@ -16,6 +16,10 @@
 
 ###### - [Java Script Moderno - ES6, ES7 e ES8](https://github.com/phoenixproject/htmljavascript/tree/master/01_ATUALIZACAO_ES6_ES7_ES8)<br/>
 
+#### 3º tópico - Programação Assíncrona - Promisses Async/Await
+
+###### - [Java Script - Promisses Async/Await](https://github.com/phoenixproject/htmljavascript/tree/master/02_PROMISSES_ASYNC_AWAIT)<br/>
+
 01 - Exemplo Java script trabalhando uso de atribuições em escopos distintos
 
 - (const) Declaração de **constante** em Java Script (constantes devem obrigatoriamente serem declaradas já recebendo um valor)
@@ -381,4 +385,11 @@ Sem que precise utilizar a forma comum e tradicional.
 	var frase = `Olá meu nome é ${nome} e eu sou ${sobre}`;
 
 	console.log(frase);
+```	
+09 - Programação Assíncrona
+- Progrmação Síncrona é aquela se tem ordem para ser executada, ou seja, uma ação definida será executada extamente na ordem definida, 
+explicando ainda melhor a próxima linha de código só será executada.
+```javascript
+
+	
 ```	
