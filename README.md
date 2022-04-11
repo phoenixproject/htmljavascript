@@ -346,3 +346,39 @@ Sem que precise utilizar a forma comum e tradicional.
     console.log(resultado5);
     console.log(resultado6);    
 ```	
+07 - Busca em Arrays
+- Permite fazer busca usando arrow functions dentro de arrays.
+```javascript
+
+    var jonas = {
+		nome : "Jonas Bloch",
+		empresa: "TV Manchete"
+	};
+
+	var david = {
+		nome : "David",
+		empresa : "Umbler"
+	};
+
+	var erik = {
+		nome : "Erik Fig",
+		empresa : "Udemy"
+	};
+
+	var users = [jonas, david, erik];
+
+	var usuario = users.find(user => user.nome === "Jonas Bloch");
+
+	console.log(usuario);
+```	
+08 - Interpolação de Conteúdo dentro de um String
+- Permite interpolar valores dentro de uma String sem usar concatenação e o pré requisito nesses caso é usar a "crase" na frase.
+```javascript
+
+	var nome = "Jonas Bloch";
+	var sobre = "Fundador da TV Manchete";
+
+	var frase = `Olá meu nome é ${nome} e eu sou ${sobre}`;
+
+	console.log(frase);
+```	
