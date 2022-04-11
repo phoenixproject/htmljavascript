@@ -14,7 +14,7 @@
 
 #### 2º tópico - Recursos de atualizações do Java Script contidos nas versões ES6, ES7, ES8
 
-###### - [Java Script Moderno - ES6, ES7 e ES8](https://github.com/phoenixproject/htmljavascript/tree/master/01_JS)<br/>
+###### - [Java Script Moderno - ES6, ES7 e ES8](https://github.com/phoenixproject/htmljavascript/tree/master/01_ATUALIZACAO_ES6_ES7_ES8)<br/>
 
 01 - Exemplo Java script trabalhando uso de atribuições em escopos distintos
 
